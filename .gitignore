@@ -11,7 +11,6 @@ Desktop.ini
 
 # IDE and editor specific files
 .idea/
-.vscode/
 *.suo
 *.user
 *.userosscache
@@ -27,8 +26,6 @@ logs/
 *.log.*
 
 # Environment files - typically sensitive, should not be committed
-.env
-.env.*
 !.env.example
 !.env.sample
 # If you have .env files specific to subprojects, e.g. subproject/.env,
@@ -84,3 +81,4 @@ mochawesome-report/
 #-------------------------------------------------------------------------------
 # Build artifacts directory
 target/
+config.bat
